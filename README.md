@@ -6,6 +6,33 @@ express-generator默认生成的是jade，我很喜欢jade的极简风格，唯�
 
 [art-template](https://github.com/aui/art-template) 是一个简约、超快的模板引擎。它采用作用域预声明的技术来优化模板渲染速度，从而获得接近 JavaScript 极限的运行性能，并且同时支持 NodeJS 和浏览器。
 
+## 目录结构
+
+```
+$ tree .
+.
+├── README.md
+├── app.js
+├── bin
+│   └── www
+├── package-lock.json
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.art
+    ├── index.art
+    └── layout.art
+
+7 directories, 11 files
+```
+
 ## 依赖模块
 
 ```
